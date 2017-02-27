@@ -2,6 +2,9 @@
   "name": "minitube",
   "version": "1.0.0",
   "description": "server of minimal YouTube embeds",
+  "engines": {
+    "node": "7.6.0"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
