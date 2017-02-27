@@ -1,0 +1,18 @@
+{
+  "name": "minitube",
+  "version": "1.0.0",
+  "description": "server of minimal YouTube embeds",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Peter W (@techieshark)",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.6",
+    "jsdom": "^9.11.0",
+    "request": "^2.74.0"
+  }
+}
