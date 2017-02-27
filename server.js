@@ -10,7 +10,7 @@ const jsdom = require('jsdom')
 const fs = require('fs')
 const handlebars = require('handlebars')
 const url = require('url')
-// experimental WHATWG URL API: easier to change params but didn't work in 7.2, does in 7.6
+// experimental WHATWG URL API: easier to change params but didn't work in Node 7.2, does in 7.6
 const URL = require('url').URL
 
 
